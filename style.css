@@ -23,6 +23,7 @@
     padding: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 15px;
 }
 .navbar ul li a:hover{
     background-color: white;
@@ -43,11 +44,22 @@ h3{
     text-align: justify;
     padding: 10px 30px;
 }
-footer{
+.foot{
     color: white;
     /* background-color: black; */
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding-bottom: 20px;
+}
+.foot .rightitems p a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+
 }
 .burger{
     position: absolute;
