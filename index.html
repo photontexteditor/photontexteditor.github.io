@@ -1,7 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head><title>Photon</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCN</title>
+    <link rel='stylesheet' href="style.css">
+</head>
 <body>
-  <h1>Photon Text Editor</h1>
+    <header class="navbar">
+        <div class="logo">
+            <h3>PHOTON</h3>
+        </div>
+        <a href="#" class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </a>
+        <ul class="navlinks">
+            <li><a href="https://photontexteditor.github.io/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Version</a></li>
+            <li><a href="#">Contribute</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="background"></div>
+        <div class="content">
+            <!-- <h2>Photon Text Editor</h2><br> -->
+            <!-- <p>"Photon" is a modern text editor with minimalist features using an object-oriented paradigm. It is being developed using the Python programming language and its robust libraries and frameworks. The development process will involve designing an intuitive user interface, integrating advanced text editing and code editing functionalities, and ensuring cross-platform compatibility. The anticipated outcome is a sophisticated text editor that empowers users with features such as writing source code for multiple programming languages, copy, cut, find, replace, word count, and user control user interface as basic features.</p> -->
+        </div>
+    </section>
+    <script>
+        let toggleBurger = document.getElementsByClassName('burger')[0];
+        let toggleNavlinks = document.getElementsByClassName('navlinks')[0];
+        toggleBurger.addEventListener('click', function(){
+            toggleNavlinks.classList.toggle('active');
+        })
+    </script>
 </body>
+<footer>&copy;2023</footer>
 </html>
