@@ -41,7 +41,7 @@ h3{
     font-size: 30px;
 }
 .banner .background{
-    background-image: url(photon.png);
+    background-image: url(photon.gif);
     background-size: cover;
     background-position: center;
     height: 100vh;
